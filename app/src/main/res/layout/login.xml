@@ -1,0 +1,7 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+<LinearLayout  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Heading" android:text="Quản lý lịch hẹn"/><LinearLayout  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" style="@style/Card" android:layout_marginBottom="12dp">
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/username" android:hint="Tên đăng nhập" android:inputType="text" android:maxLines="1"/><EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/password" android:hint="Mật khẩu" android:inputType="textPassword" android:maxLines="1"/><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/error" android:text="" android:textColor="#B3261E" android:visibility="gone"/><Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/login" android:text="Đăng nhập" style="@style/PrimaryButton"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

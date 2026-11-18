@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' version '9.1.0' }
+android {
+    namespace 'vn.lichhen'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'vn.lichhen'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+}

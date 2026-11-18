@@ -1,0 +1,25 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#245AB2</item>
+        <item name="android:windowBackground">#F4F7FC</item>
+        <item name="android:statusBarColor">#F4F7FC</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#152841</item>
+    </style>
+    <style name="Heading">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#152841</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+    <style name="PrimaryButton" parent="android:style/Widget.Material.Light.Button">
+        <item name="android:backgroundTint">#245AB2</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Card">
+        <item name="android:background">@drawable/card</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>

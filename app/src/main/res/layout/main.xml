@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Heading" android:text="Lịch hẹn"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:baselineAligned="false">
+<TextView android:id="@+id/total" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/Card" android:gravity="center" android:textColor="#173C75" android:textStyle="bold" android:layout_marginEnd="8dp"/><TextView android:id="@+id/enabled" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/Card" android:gravity="center" android:textColor="#173C75" android:textStyle="bold" android:layout_marginEnd="0dp"/>
+</LinearLayout>
+<FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="12dp">
+<ListView android:id="@+id/appointments" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="8dp"/>
+<TextView android:id="@+id/empty" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="Chưa có lịch hẹn"/>
+</FrameLayout>
+<Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/add" android:text="Thêm lịch hẹn" style="@style/PrimaryButton"/>
+</LinearLayout>
